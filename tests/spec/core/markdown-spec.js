@@ -1,5 +1,5 @@
 "use strict";
-describe("Core - Markdown", function() {
+fdescribe("Core - Markdown", function() {
   afterAll(function(done) {
     flushIframes();
     done();
@@ -69,6 +69,7 @@ describe("Core - Markdown", function() {
     ops.config.format = "markdown";
     makeRSDoc(ops, function(doc) {
       var $foo = $("#foo", doc);
+      debugger;
       expect($foo.prop("tagName")).toEqual("SECTION");
       expect($foo.find("> h2").length).toEqual(1);
       expect($foo.find("> h2").text()).toEqual("1. Foo");

@@ -41,8 +41,8 @@
 //
 
 define(
-    ['core/marked', "jquery"],
-    function (coreMarked, $) {
+    ['marked', "jquery"],
+    function (marked, $) {
         marked.setOptions({
             gfm: false,
             pedantic: false,
@@ -238,6 +238,7 @@ define(
                                 stack.addHeader(node);
                                 break;
                             case 'section':
+                                console.log("Adding section...")
                                 stack.addSection(node, process);
                                 break;
                             default:

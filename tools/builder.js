@@ -43,6 +43,7 @@ require(['profile-w3c-common']);`;
           "Promise": "../node_modules/promise-polyfill/Promise",
           "handlebars": "../node_modules/handlebars/dist/handlebars",
           "webidl2": "../node_modules/webidl2/lib/webidl2",
+          "marked": "../node_modules/marked/lib/marked",
         },
         shim: {
           "shortcut": {

@@ -36,6 +36,7 @@
     "karma-safari-launcher": "^0.1.1",
     "karma-verbose-summary-reporter": "0.0.1",
     "marcosc-async": "^1.0.2",
+    "marked": "^0.3.5",
     "mocha": "^2.4.5",
     "moment": "^2.11.2",
     "mozilla-download": "^1.1.1",

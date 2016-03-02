@@ -11,6 +11,7 @@ require.config({
     "jquery": "/node_modules/jquery/dist/jquery",
     "Promise": "/node_modules/promise-polyfill/Promise",
     "webidl2": "/node_modules/webidl2/lib/webidl2",
+    "marked": "/node_modules/marked/lib/marked",
   },
 });
 
