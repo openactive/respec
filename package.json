@@ -1,6 +1,6 @@
 {
   "name": "respec",
-  "version": "3.2.124",
+  "version": "3.2.125",
   "license": "W3C",
   "description": "Specification Edition Support Tool.",
   "engines": {
@@ -21,7 +21,6 @@
     "command-line-args": "^2.1.6",
     "epipebomb": "^0.1.1",
     "express": "^4.13.4",
-    "fs": "0.0.2",
     "fs-extra": "^0.30.0",
     "fs-promise": "^0.5.0",
     "handlebars": "^4.0.5",
