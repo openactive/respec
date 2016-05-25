@@ -141,8 +141,9 @@ define(
             toHTML: function(text) {
                 // As markdown is pulled from HTML > is already escaped, and
                 // thus blockquotes aren't picked up by the parser. This fixes
-                // it.
+                // it. Same issue exists for ampersands.
                 text = text.replace(/&gt;/g, '>');
+                text = text.replace(/&amp;/g, '&');
                 text = this.removeLeftPadding(text);
                 return marked(text);
             },
